@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Font awsome links-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css"
+    />
+    <!-- CSS links -->
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>JS</title>
+  </head>
+  <body>
+    <!--basic js-->
+    <section class="container">
+      <h1 class="bg-primary text-center mt-3 mb-5">Fun time</h1>
+
+      <button
+        type="button"
+        class="btn btn-info btn-lg"
+        onmouseover="textChange1()"
+      >
+        click me
+      </button>
+      <button
+        type="button"
+        class="btn btn-info btn-lg"
+        onmouseout="textChange2()"
+      >
+        click me
+      </button>
+      <button
+        type="button"
+        class="btn btn-info btn-lg"
+        ondblclick="textChange3()"
+      >
+        click me
+      </button>
+      <h2 id="" class="h2font">hover to see the Timezone</h2>
+      <h2 id="hola" class="h2font">mouse out to see a repeated text</h2>
+      <h2 id="" class="h2font">Double click to see the red bordered text</h2>
+      <!--clickable img example-->
+      <button type="button" class="btn btn-success btn-lg" onmouseover="img1()">
+        Image one
+      </button>
+      <button type="button" class="btn btn-danger btn-lg" onmouseover="img2()">
+        Image two
+      </button>
+      <img src="images/work_member1.jpg" id="img" alt="img" />
+      
+      <!--alert example-->
+      <h1 class="bg-primary text-center mt-3 mb-5">Alert</h1>
+
+      <button class="btn btn-secondary" onclick="alertbtn()">js alert</button>
+      <button class="btn btn-secondary" id="jqalert">jq alert</button>
+
+      <!--basic js-->
+    </section>
+
+    <!-- JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
